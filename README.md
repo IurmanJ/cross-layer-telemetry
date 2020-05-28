@@ -41,5 +41,8 @@ If you want to test it, make sure you have an IOAM kernel patched for CLT, go to
 ./topology_setup.sh
 ```
 
-Click on the GIF below to watch the demo video:
+Open your browser and go to `http://localhost:16686` where you can visualize all traces. Right now, it is empty. Then, simulate the client request by visiting `http://localhost:15123/api/request`. Follow instructions on the screen and have fun looking at traces combined with IOAM data.
+
+You can watch the entire demo by clicking on the following video:
+
 [![GIF_video](./images/video.gif?raw=true "CLT demo video")](https://youtu.be/dpyChGrEwVs)
