@@ -1,5 +1,7 @@
 # Cross Layer Telemetry
 
+(see the demo and video at the end)
+
 This project, based on IPv6 IOAM in the kernel, aims to make the entire stack (L2/L3 -> L7) visible for distributed tracing tools, thanks to a correlation in [Jaeger](https://www.jaegertracing.io) between trace/span IDs carried in the dataplane by IOAM and [OpenTelemetry](https://opentelemetry.io) data.
 
 Both the Trace ID (either 64 or 128 bits) and the Span ID are carried by IOAM, right after the IOAM Trace Option Header, to avoid a collision at correlation time.
